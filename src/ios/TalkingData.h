@@ -26,6 +26,15 @@ typedef enum {
  */
 + (void)sessionStarted:(NSString *)appKey withChannelId:(NSString *)channelId;
 
+
+/**
+ *  @method openDebugLog
+ *  我也不知道这是干什么的 加上试试
+ *  @param  enable  默认是 NO
+ */ 
++ (void)openDebugLog:(BOOL)enable;
+
+
 /**
  *	@method	initWithWatch:
  *  初始化WatchApp统计实例，请在每个入口类的init方法里调用
