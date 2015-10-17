@@ -138,7 +138,7 @@
     }
     
     if (self.currPageName) {
-        [TalkingData trackPageEnd:self.pageName];
+        [TalkingData trackPageEnd:self.currPageName];
     }
     self.currPageName = pageName;
     [TalkingData trackPageBegin:pageName];
