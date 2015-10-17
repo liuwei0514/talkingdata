@@ -5,6 +5,9 @@
     
     <asset src="www/TalkingData.js" target="js/TalkingData.js" />
     
+    <js-module src="www/TalkingData.js" name="TalkingData">
+        <clobbers target="window.plugins.TalkingData"/>
+    </js-module>
     <!-- ios -->
     <platform name="ios">
         
